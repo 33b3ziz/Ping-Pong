@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ping Pong</title>
+    <!-- add stylesheet and scripts -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="splashScreen">
+      <h1>Pong</h1>
+      <p>Press any key to start</p>
+    </div>
+    <div id="container">
+      <div id="paddle1"></div>
+      <div id="paddle2"></div>
+      <div id="ball"></div>
+    </div>
+    <button id="startButton">
+      <span>Start game</span>
+      <svg viewBox="0 0 24 24">
+        <path d="M6 4l15 8L6 20z"></path>
+      </svg>
+    </button>
+    <div id="scoreContainer">
+      <span>First Player :</span>
+      <span id="player1Score">0</span>
+      <hr />
+      <span>Second Player :</span>
+      <span id="player2Score">0</span>
+    </div>
+    <div id="messageContainer"></div>
+    <script src="pingpong.js"></script>
+  </body>
+</html>
