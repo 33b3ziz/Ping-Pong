@@ -20,7 +20,7 @@ body {
   --position: 50;
   position: absolute;
   width: 1vh;
-  height: 10vh;
+  height: 25vh;
   top: calc(var(--position) * 1vh);
   transform: translateY(-50%);
   background-color: var(--foreground-color);
